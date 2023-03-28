@@ -8,6 +8,10 @@ class Tabs_Page extends StatefulWidget {
 }
 
 class _Tabs_PageState extends State<Tabs_Page> {
+
+  int paginaSeleccionada = 0;
+  TabController? controller;
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
